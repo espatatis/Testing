@@ -1,5 +1,5 @@
 inp=0
-wish='a'
+wish='B'
 product=1
 sum=0
 while wish!='q':
