@@ -1,4 +1,4 @@
-inp=0
+input=0
 wish='B'
 product=1
 sum=0
@@ -7,10 +7,10 @@ while wish!='q':
     if wish=='q':
         break
     else:
-        inp=int(input("enter value"))
-        if inp%2==0:
-            sum=sum+inp
+        input=int(input("enter value"))
+        if input%2==0:
+            sum=sum+input
         else:
-            product=product*inp
+            product=product*input
 print("the sum of even numbers is >>", sum)
 print("the product of odd numbers is >>", product)
